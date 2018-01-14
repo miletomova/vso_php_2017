@@ -1,0 +1,6 @@
+<?php 
+$check_username = 'Vasil';
+$check_password = 'secret';
+
+if($_POST['username'] === $check_username)....
+if($_POST['username'] === 'Vasil')...
