@@ -19,6 +19,8 @@ if(isset($_POST['angle_a']) && isset($_POST['angle_b']) && isset($_POST['angle_c
 		echo 'Not a valid input';
 	}
 }
+
+
 ?>
 	<form method="post" action="">
 		<p>Angle a</p>

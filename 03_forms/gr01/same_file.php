@@ -21,6 +21,10 @@
 		$angle_b = $_POST['angle_b'];
 		$angle_c = $_POST['angle_c'];
 
+		unset($_POST['angle_a']);
+		unset($_POST['angle_b']);
+		unset($_POST['angle_c']);
+		
 		if(is_numeric($angle_a) && is_numeric($angle_b) && is_numeric($angle_c)){
 			echo 'check if triangle';
 		} else {
