@@ -9,3 +9,6 @@ while($a <= 100){
 	$a+=10;
 	
 }
+
+$_POST['smth'] = rand(1, 10);
+echo 'num' . $_POST['smth'];
