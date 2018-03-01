@@ -1,0 +1,14 @@
+<?php 
+// include('db.php');
+
+$conn = mysqli_connect('localhost', 'root', '', 'recipes_new');
+
+$q = "SELECT * FROM units";
+
+$result = mysqli_query($conn, $q);
+
+if (mysqli_num_rows($result) > 0) {
+	while($row = mysqli_fetch_assoc($result)){ 
+		echo $row['unit_id'] . ' '.$row['unit_name'];
+	}
+}
