@@ -14,7 +14,7 @@ if(empty($_POST['submit'])){
 //so we do not need the while cycle
 	$row = mysqli_fetch_assoc($res);
 
-//var_dump($row);
+// var_dump($row);
 
 //form is exactly the same as in create.php
 //MIND THE VALUES!!! AND HIDDEN INPUT TYPE

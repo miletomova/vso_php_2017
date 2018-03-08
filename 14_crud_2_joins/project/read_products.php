@@ -30,9 +30,9 @@ include('includes/db.php');
 // echo "</table>";
 
 
-// //2 JOIN UNITS TABLE
+// // //2 JOIN UNITS TABLE
 
-// $q = "SELECT * FROM products p 
+// $q = "SELECT * FROM products p
 // 		JOIN units u ON p.unit_id = u.unit_id 
 // 		WHERE p.date_deleted IS NULL";
 
